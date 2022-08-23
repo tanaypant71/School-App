@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardUseCompatPadding="true">
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/image_slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    app:iss_auto_cycle="true"
+                    app:iss_period="3000">
+                </com.denzcoskun.imageslider.ImageSlider>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/my_school_name"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/about_school"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/text_size01" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="@color/textcolor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="36dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/text_margin"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Departments"
+                        android:textColor="@color/titlecolor"
+                        android:textSize="@dimen/title_size"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_gravity="center_horizontal"
+                                android:text="English"
+                                android:layout_margin="8dp"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/text_size01" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/grey"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_gravity="center_horizontal"
+                                android:text="Hindi"
+                                android:layout_margin="8dp"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/text_size01" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/grey"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_gravity="center_horizontal"
+                                android:text="Maths"
+                                android:layout_margin="8dp"
+                                android:textColor="@color/textcolor"
+                                android:textSize="@dimen/text_size01" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/grey"/>
+
+
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/text_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="36dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/contact_details"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/title_size"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:text="@string/my_school"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/text_size01" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:text="@string/indirapuram_ghaziabad"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/text_size01" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:text="@string/email_demo_gmail_com"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/text_size01" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/text_margin"
+                    android:layout_marginHorizontal="@dimen/text_margin"
+                    android:text="@string/phone_1234567890"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/text_size01" />
+
+                <ImageView
+                    android:id="@+id/mapimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="240dp"
+                    android:src="@drawable/googleimage"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

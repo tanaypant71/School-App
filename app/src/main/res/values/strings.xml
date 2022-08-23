@@ -1,0 +1,31 @@
+<!--suppress ALL -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">School App</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/lato_bold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/lato_regular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/lato_light</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="my_school_name">MY SCHOOL NAME</string>
+    <string name="about_school">The name of my school is Bidya Bhaban High School. There is a garden in front of my school. There is a playground just before it. It is an open space for games and sports and a lot of fun. We play on the playground when we get time for that.There are twenty-two classrooms, a library, a laboratory, a teachers’ room and the Headmaster’s room in the school. Our respected Headmaster is Debashish Ganguly. There are about nine hundred Students and about thirty-five teachers in our school. The teachers are very good and loving. I am very proud of our school.</string>
+    <string name="phone_1234567890">Phone: 1234567890</string>
+    <string name="email_demo_gmail_com">Email: demo@gmail.com</string>
+    <string name="indirapuram_ghaziabad">Indirapuram Ghaziabad</string>
+    <string name="my_school">My School</string>
+    <string name="contact_details">Contact Details</string>
+
+    <string-array name="theme">
+
+
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+
+</resources>

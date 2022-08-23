@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        jcenter()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+        repositories {
+            google()
+            jcenter()
+            mavenCentral()
+            maven { url 'https://jitpack.io' }
+        }
+}
+rootProject.name = "School App"
+
+
+
+include ':app', ':autoimageslider'
